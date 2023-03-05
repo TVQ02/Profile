@@ -1,0 +1,153 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: #333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content_all_box {
+    border: 1px solid;
+    max-width: 600px;
+    background-color: #dff5f5;
+}
+.setHeader {
+    display: flex;
+    height: 170px;
+    width: 100%;
+}
+
+.set_all_avt {
+    padding: 15px 0px 0 15px;
+}
+
+.box_text_first {
+    padding-left: 20px;
+    padding-top: 10%;
+    width: 100%;
+}
+
+.avatar_Profile {
+    border-radius: 50%;
+    border: 3px solid #000000;
+    height: 85%;
+}
+
+/* định dạng chữ */
+
+h3 {
+    text-align: center;
+    color: #000000;
+}
+
+.setuptext-all {
+
+}
+
+.text-first {
+    font-weight: 550;
+    font-size: 16px;
+    color: black;
+}
+
+.text-last {
+    font-weight: 550;
+    font-size: 16px;
+    color: red;
+}
+
+/* liên hệ */
+
+.contact-all {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_chung {
+    font-size: 20px;
+}
+
+.contact_chung-child {
+    padding: 0 20px 10px 20px;
+}
+
+.editContact-fb {
+    color: #0058a4;
+}
+
+.editContact-ytb {
+    color: red;
+}
+
+.editContact-tt {
+    color: #000000;
+}
+
+/* thanh phần trăm kỹ năng */
+/* định dạng cho thẻ bao bọc các thẻ skill */
+.container {
+    width: 100%;
+    background-color: #ddd;
+    padding: 0;
+}
+
+/* định dạng chung cho thẻ hiển thị skill */
+.skills {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 60px;
+    color: white;
+}
+
+/* định dạng cho từng skill theo số liệu */
+.html {
+    width: 60%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width:30%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 10%;
+    background-color: #f44336;
+}
+
+.dinhdangpt {
+    margin-bottom: 20px;
+}
+
+.tailieuhoc {
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 5px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.tailieuhoc a {
+    color: red;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+/* responsive mobile */
+
+@media screen and (max-width: 800px) {
+    .content_all_box {
+        margin-top: 0;
+    }
+
+    .content_all_box {
+        min-width: 600px;
+    }
+}
